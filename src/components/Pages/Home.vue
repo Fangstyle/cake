@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <article>
       <header class="section background-white">
         <div class="line text-center">

@@ -13,13 +13,11 @@
   "dependencies": {
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "qiniu-js": "^2.5.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "xlsx": "^0.11.3"
+    "swiper": "^4.5.0"
   },
   "devDependencies": {
-    "axios": "^0.18.0",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
@@ -34,7 +32,6 @@
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
-    "element-ui": "^2.4.7",
     "es6-promise": "^4.2.5",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^10.2.1",

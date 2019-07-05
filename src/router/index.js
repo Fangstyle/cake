@@ -9,6 +9,9 @@ import Index from '@/components/Index'
 import Home from '@/components/Pages/Home'
 import About from '@/components/Pages/About'
 import Technology from '@/components/Pages/Technology'
+import Products from '@/components/Pages/Products'
+import Clients from '@/components/Pages/Clients'
+import Contact from '@/components/Pages/Contact'
 
 
 Vue.use(Router)
@@ -67,6 +70,30 @@ const router = new Router({
             title: '技术支持'
           },
           component: Technology
+        },
+        {
+          path: '/products',
+          name: '产品展示',
+          meta: {
+            title: '产品展示'
+          },
+          component: Products
+        },
+        {
+          path: '/clients',
+          name: '合作品牌',
+          meta: {
+            title: '合作品牌'
+          },
+          component: Clients
+        },
+        {
+          path: '/contact',
+          name: '联系方式',
+          meta: {
+            title: '联系方式'
+          },
+          component: Contact
         },
         {
           path: '/error',
