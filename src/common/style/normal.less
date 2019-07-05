@@ -1,0 +1,10 @@
+.clearfix:after{
+  height:0;
+  content:" ";
+  display:block;
+  overflow:hidden;
+  clear:both;
+}
+.clearfix{
+  zoom:1;/*IE低版本浏览器不支持after伪类所以要加这一句*/
+}
