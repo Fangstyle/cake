@@ -6,9 +6,9 @@
         <div class="s-12 l-2">
           <a href="index.html" class="logo">
             <!-- Logo version before sticky nav -->
-            <img class="logo-before" src="../../img/logo-dark.png" alt="">
+            <img class="logo-before" :src="require('@/assets/img/logo-dark.png')" alt="">
             <!-- Logo version after sticky nav -->
-            <img class="logo-after" src="../../img/logo-dark.png" alt="">
+            <img class="logo-after" :src="require('@/assets/img/logo-dark.png')" alt="">
           </a>
         </div>
         <div class="s-12 l-10">

@@ -10,7 +10,7 @@
         <br>
         <br>
       </div>
-      <img src="../../img/contactus.jpg" alt="">
+      <img :src="require('@/assets/img/contactus.jpg')" alt="">
     </header>
     <article>
       <header class="section background-white">
@@ -71,7 +71,7 @@
 </template>
 
 <script>
-import defaultImg from '../../img/contact.jpg'
+import defaultImg from '@/assets/img/contact.jpg'
 export default {
   name: "Contact",
   data () {

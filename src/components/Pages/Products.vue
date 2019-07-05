@@ -10,7 +10,7 @@
         <br>
         <br>
       </div>
-      <img src="../../img/products.jpg" alt="">
+      <img :src="require('@/assets/img/products.jpg')"  alt="">
     </header>
     <section class="section-top-padding background-white">
       <div class="line text-center">
@@ -53,13 +53,13 @@
 
 <script>
 import Swiper from "swiper"
-import Img1 from '../../img/portfolio/03.jpg'
-import Img2 from '../../img/portfolio/04.jpg'
-import Img3 from '../../img/portfolio/05.jpg'
-import Img4 from '../../img/portfolio/06.jpg'
-import Img5 from '../../img/portfolio/07.jpg'
-import Img6 from '../../img/portfolio/08.jpg'
-import Img7 from '../../img/portfolio/10.jpg'
+import Img1 from '@/assets/img/portfolio/03.jpg'
+import Img2 from '@/assets/img/portfolio/04.jpg'
+import Img3 from '@/assets/img/portfolio/05.jpg'
+import Img4 from '@/assets/img/portfolio/06.jpg'
+import Img5 from '@/assets/img/portfolio/07.jpg'
+import Img6 from '@/assets/img/portfolio/08.jpg'
+import Img7 from '@/assets/img/portfolio/10.jpg'
 
 export default {
   name: "Products",

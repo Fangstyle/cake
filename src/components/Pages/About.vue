@@ -10,7 +10,7 @@
         <br>
         <br>
       </div>
-      <img src="../../img/aboutus.jpg" alt="">
+      <img :src="require('@/assets/img/aboutus.jpg')" alt="">
     </header>
     <header class="section-top-padding background-white">
       <div class="line text-center">
@@ -30,7 +30,7 @@
             <div class="line">
               <div class="margin">
                 <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                  <img src="../../img/10yrs.jpg" alt="">
+                  <img :src="require('@/assets/img/10yrs.jpg')" alt="">
                   <br>
                   <p></p>
                 </div>
@@ -51,7 +51,7 @@
               <div class="line">
                 <div class="margin">
                   <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                    <img src="../../img/400p.jpg" alt="">
+                    <img :src="require('@/assets/img/400p.jpg')" alt="">
                     <br>
                     <p></p>
                   </div>
@@ -73,7 +73,7 @@
                 <div class="line">
                   <div class="margin">
                     <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                      <img src="../../img/control.jpg" alt="">
+                      <img :src="require('@/assets/img/control.jpg')" alt="">
                       <br>
                       <p></p>
                     </div>
@@ -98,7 +98,7 @@
                   <div class="line">
                     <div class="margin">
                       <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                        <img src="../../img/global.jpg" alt="">
+                        <img :src="require('@/assets/img/global.jpg')" alt="">
                         <br>
                         <p></p>
                       </div>
@@ -122,7 +122,7 @@
                     <div class="line">
                       <div class="margin">
                         <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                          <img src="../../img/customer.jpg" alt="">
+                          <img :src="require('@/assets/img/customer.jpg')" alt="">
                           <br>
                           <p></p>
                         </div>
@@ -153,21 +153,21 @@
                         <div class="line">
                           <div class="margin">
                             <div class="s-12 m-12 l-4 margin-m-bottom">
-                              <a class="image-hover-zoom margin-bottom" href="/"><img src="../../img/img-04.jpg" alt=""></a>
+                              <a class="image-hover-zoom margin-bottom" href="/"><img :src="require('@/assets/img/img-04.jpg')"  alt=""></a>
                               <h2>CONCEPT AND DESIGN</h2>
                               <p class="margin-bottom">Our dedicated skilled team continuously works towards the
                                 development of new products. They are developed in partnership with design experts, our
                                 in-house electronic engineers and team of professionals.</p>
                             </div>
                             <div class="s-12 m-12 l-4 margin-m-bottom">
-                              <a class="image-hover-zoom margin-bottom" href="/"><img src="../../img/img-03.jpg" alt=""></a>
+                              <a class="image-hover-zoom margin-bottom" href="/"><img :src="require('@/assets/img/img-03.jpg')" alt=""></a>
                               <h2>DEVELOPMENT</h2>
                               <p class="margin-bottom">We offer product customization including turn key solutions. Our
                                 in-house manufacturing and packaging facility allows us to respond to the needs of our
                                 partners.</p>
                             </div>
                             <div class="s-12 m-12 l-4 margin-m-bottom">
-                              <a class="image-hover-zoom margin-bottom" href="/"><img src="../../img/img-05.jpg" alt=""></a>
+                              <a class="image-hover-zoom margin-bottom" href="/"><img :src="require('@/assets/img/img-05.jpg')"  alt=""></a>
                               <h2>PRODUCTION</h2>
                               <p class="margin-bottom">Based in Shenzhen, our factory has a production capacity of
                                 300,000 pieces a month. Committed to compliance, our factory is certified BSCI and ISO

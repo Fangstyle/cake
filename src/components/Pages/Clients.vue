@@ -10,7 +10,7 @@
         <br>
         <br>
       </div>
-      <img src="../../img/client.jpg" alt="">
+      <img :src="require('@/assets/img/client.jpg')" alt="">
     </header>
     <header class="section-top-padding background-white">
       <div class="line text-center">
@@ -21,7 +21,7 @@
         <p></p>
       </div>
       <div class="line text-center">
-        <img src="../../img/clientlogo2.jpg" alt="">
+        <img :src="require('@/assets/img/clientlogo2.jpg')" alt="">
         <section class="section background-white">
           <div class="s-12 m-12 l-4 center">
             <form name="contactForm" class="customform" method="post">

@@ -3,7 +3,7 @@
     <article>
       <header class="section background-white">
         <div class="line text-center">
-          <img class="full-img" src="../../img/logo.jpg" alt="">
+          <img class="full-img" :src="require('@/assets/img/logo.jpg')" alt="">
           <p class="margin-bottom-0 text-size-30 text-dark">Leading aroma diffuser manufacturer</p>
         </div>
       </header>
@@ -18,7 +18,7 @@
                 </p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/01.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/01.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -30,7 +30,7 @@
                   uses different intensity of setting to create a perfect relaxing environment around you. </p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/02.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/02.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -42,7 +42,7 @@
                   decorate and perfume your room without a sound.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/03.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/03.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -54,7 +54,7 @@
                   perfect for travel.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/04.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/04.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -67,7 +67,7 @@
                   particles of essential oil reach you in their natural state.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/05.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/05.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -80,7 +80,7 @@
                   the lighting, color changing or static mode, to fit your mood.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/06.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/06.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -92,7 +92,7 @@
                   purify your air for many hours thanks to its big water tank.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/07.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/07.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -104,7 +104,7 @@
                   your home and warm up the atmosphere.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/08.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/08.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -117,7 +117,7 @@
                   molecules into the air.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/09.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/09.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -129,7 +129,7 @@
                   wardrobe to naturally freshen your room.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/10.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/10.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -141,7 +141,7 @@
                   refined luxury oak wood design will turn your home into a relaxing haven. </p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/11.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/11.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -154,7 +154,7 @@
                   through.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/12.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/12.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -166,7 +166,7 @@
                   nebulizer. Its white painted wooden base will infuse your room with a touch of modernity.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/18.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/18.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -179,7 +179,7 @@
                   system. Make you comfortable and be ready to drive without stress.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/14.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/14.jpg')" alt="">
           </a>
         </div>
         <div class="s-12 m-6 l-five">
@@ -192,7 +192,7 @@
                   recharge with its USB cable included.</p>
               </div>
             </div>
-            <img class="full-img" src="../../img/portfolio/15.jpg" alt="">
+            <img class="full-img" :src="require('@/assets/img/portfolio/15.jpg')" alt="">
           </a>
         </div>
       </div>

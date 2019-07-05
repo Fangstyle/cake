@@ -10,7 +10,7 @@
         <br>
         <br>
       </div>
-      <img src="../../img/techno.jpg" alt="">
+      <img :src="require('@/assets/img/techno.jpg')" alt="">
     </header>
     <header class="section-top-padding background-white">
       <div class="line text-center">
@@ -32,7 +32,7 @@
             <div class="line">
               <div class="margin">
                 <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                  <p class="text-size-16"><img src="../../img/billie.jpg" alt="">
+                  <p class="text-size-16"><img  :src="require('@/assets/img/billie.jpg')" alt="">
                     <br>
                   </p>
                 </div>
@@ -55,7 +55,7 @@
               <div class="line">
                 <div class="margin">
                   <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                    <p class="text-size-16"><img src="../../img/zandra.jpg" alt="">
+                    <p class="text-size-16"><img :src="require('@/assets/img/zandra.jpg')" alt="">
                       <br>
                     </p>
                   </div>
@@ -80,7 +80,7 @@
                 <div class="line">
                   <div class="margin">
                     <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                      <p class="text-size-16"><img src="../../img/orbit.jpg" alt="">
+                      <p class="text-size-16"><img :src="require('@/assets/img/orbit.jpg')"  alt="">
                         <br>
                       </p>
                     </div>
@@ -104,7 +104,7 @@
                   <div class="line">
                     <div class="margin">
                       <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                        <p class="text-size-16"><img src="../../img/heidi.jpg" alt="">
+                        <p class="text-size-16"><img :src="require('@/assets/img/heidi.jpg')"  alt="">
                           <br>
                         </p>
                       </div>
@@ -128,7 +128,7 @@
                   <div class="line">
                     <div class="margin">
                       <div class="s-12 m-12 l-2 margin-l-bottom-30">
-                        <p class="text-size-16"><img src="../../img/capi-leaf.jpg" alt="">
+                        <p class="text-size-16"><img :src="require('@/assets/img/capi-leaf.jpg')" alt="">
                           <br>
                         </p>
                       </div>
